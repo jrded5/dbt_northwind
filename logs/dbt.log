@@ -1,0 +1,972 @@
+[0m17:04:39.443642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x747f2de69f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x747f2c421e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x747f2c423310>]}
+
+
+============================== 17:04:39.446943 | 09551d4c-3da6-4071-9a78-a6228a373b55 ==============================
+[0m17:04:39.446943 [info ] [MainThread]: Running with dbt=1.7.13
+[0m17:04:39.447761 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/derek/Desktop/my_learnings/dbt_northwind/logs', 'fail_fast': 'False', 'profiles_dir': '/home/derek/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:04:39.451616 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'northwind_project'
+[0m17:04:39.452800 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.06756214, "process_user_time": 2.532534, "process_kernel_time": 0.100021, "process_mem_max_rss": "92656", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m17:04:39.453670 [debug] [MainThread]: Command `dbt run` failed at 17:04:39.453428 after 0.07 seconds
+[0m17:04:39.454316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x747f2de69f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x747f2c47b130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x747f2c47ac20>]}
+[0m17:04:39.455010 [debug] [MainThread]: Flushing usage events
+[0m17:05:28.113778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5a3dd4f220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5a3c2f5d80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5a3c2f7250>]}
+
+
+============================== 17:05:28.117554 | b0c0dad3-3706-481b-8ba1-92b1419dfbc9 ==============================
+[0m17:05:28.117554 [info ] [MainThread]: Running with dbt=1.7.13
+[0m17:05:28.118398 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/derek/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/home/derek/Desktop/my_learnings/dbt_n/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init dbt_northwind', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:05:28.121399 [info ] [MainThread]: Setting up your profile.
+[0m17:06:58.610518 [info ] [MainThread]: Profile northwind_project written to /home/derek/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:06:58.611985 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 90.557526, "process_user_time": 2.60433, "process_kernel_time": 0.095893, "process_mem_max_rss": "96756", "process_out_blocks": "24", "process_in_blocks": "0"}
+[0m17:06:58.612979 [debug] [MainThread]: Command `dbt init` succeeded at 17:06:58.612755 after 90.56 seconds
+[0m17:06:58.613693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5a3dd4f220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5a3c2f5de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5a3c2f7ee0>]}
+[0m17:06:58.614511 [debug] [MainThread]: Flushing usage events
+[0m17:07:35.893491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e0c2174df60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e0c1fc29d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e0c1fc2b220>]}
+
+
+============================== 17:07:35.896893 | c4856760-5552-4aa4-b9ff-77e5942906cc ==============================
+[0m17:07:35.896893 [info ] [MainThread]: Running with dbt=1.7.13
+[0m17:07:35.897780 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/derek/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/home/derek/Desktop/my_learnings/dbt_n/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m17:07:35.898460 [info ] [MainThread]: dbt version: 1.7.13
+[0m17:07:35.899070 [info ] [MainThread]: python version: 3.10.12
+[0m17:07:35.899763 [info ] [MainThread]: python path: /usr/bin/python3
+[0m17:07:35.900455 [info ] [MainThread]: os info: Linux-6.5.0-27-generic-x86_64-with-glibc2.35
+[0m17:07:36.026123 [info ] [MainThread]: Using profiles dir at /home/derek/.dbt
+[0m17:07:36.026934 [info ] [MainThread]: Using profiles.yml file at /home/derek/.dbt/profiles.yml
+[0m17:07:36.027665 [info ] [MainThread]: Using dbt_project.yml file at /home/derek/Desktop/my_learnings/dbt_n/dbt_project.yml
+[0m17:07:36.028502 [info ] [MainThread]: adapter type: postgres
+[0m17:07:36.029119 [info ] [MainThread]: adapter version: 1.7.13
+[0m17:07:36.139101 [info ] [MainThread]: Configuration:
+[0m17:07:36.140017 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:07:36.140668 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:07:36.141310 [info ] [MainThread]: Required dependencies:
+[0m17:07:36.141972 [debug] [MainThread]: Executing "git --help"
+[0m17:07:36.144573 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialise an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:07:36.145563 [debug] [MainThread]: STDERR: "b''"
+[0m17:07:36.146198 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:07:36.146863 [info ] [MainThread]: Connection:
+[0m17:07:36.147564 [info ] [MainThread]:   host: aws-0-eu-west-2.pooler.supabase.com
+[0m17:07:36.148173 [info ] [MainThread]:   port: 5432
+[0m17:07:36.148810 [info ] [MainThread]:   user: postgres.xcykkwpciqfqhhjjhhbb
+[0m17:07:36.149430 [info ] [MainThread]:   database: postgres
+[0m17:07:36.150193 [info ] [MainThread]:   schema: public
+[0m17:07:36.150818 [info ] [MainThread]:   connect_timeout: 10
+[0m17:07:36.151453 [info ] [MainThread]:   role: None
+[0m17:07:36.152502 [info ] [MainThread]:   search_path: None
+[0m17:07:36.153524 [info ] [MainThread]:   keepalives_idle: 0
+[0m17:07:36.154247 [info ] [MainThread]:   sslmode: None
+[0m17:07:36.154893 [info ] [MainThread]:   sslcert: None
+[0m17:07:36.155627 [info ] [MainThread]:   sslkey: None
+[0m17:07:36.156388 [info ] [MainThread]:   sslrootcert: None
+[0m17:07:36.157062 [info ] [MainThread]:   application_name: dbt
+[0m17:07:36.157791 [info ] [MainThread]:   retries: 1
+[0m17:07:36.158592 [info ] [MainThread]: Registered adapter: postgres=1.7.13
+[0m17:07:36.159654 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m17:07:36.160269 [debug] [MainThread]: Using postgres connection "debug"
+[0m17:07:36.160844 [debug] [MainThread]: On debug: select 1 as id
+[0m17:07:36.161378 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:07:36.229176 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m17:07:36.230773 [debug] [MainThread]: On debug: Close
+[0m17:07:36.231513 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:07:36.232302 [info ] [MainThread]: [32mAll checks passed![0m
+[0m17:07:36.233443 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.39754212, "process_user_time": 2.856155, "process_kernel_time": 0.067908, "process_mem_max_rss": "101476", "process_in_blocks": "8", "process_out_blocks": "16"}
+[0m17:07:36.234262 [debug] [MainThread]: Command `dbt debug` succeeded at 17:07:36.234043 after 0.40 seconds
+[0m17:07:36.234804 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:07:36.235424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e0c2174df60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e0c1fc4cfa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e0c1fc4c580>]}
+[0m17:07:36.236130 [debug] [MainThread]: Flushing usage events
+[0m17:10:05.891324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77265a079f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x772658555d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7726585571f0>]}
+
+
+============================== 17:10:05.894663 | 2e4f38ea-2130-450f-b37e-02e3c138708c ==============================
+[0m17:10:05.894663 [info ] [MainThread]: Running with dbt=1.7.13
+[0m17:10:05.895555 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/derek/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/home/derek/Desktop/my_learnings/dbt_northwind/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:10:05.896344 [info ] [MainThread]: dbt version: 1.7.13
+[0m17:10:05.897016 [info ] [MainThread]: python version: 3.10.12
+[0m17:10:05.897771 [info ] [MainThread]: python path: /usr/bin/python3
+[0m17:10:05.898365 [info ] [MainThread]: os info: Linux-6.5.0-27-generic-x86_64-with-glibc2.35
+[0m17:10:06.018998 [info ] [MainThread]: Using profiles dir at /home/derek/.dbt
+[0m17:10:06.019850 [info ] [MainThread]: Using profiles.yml file at /home/derek/.dbt/profiles.yml
+[0m17:10:06.020520 [info ] [MainThread]: Using dbt_project.yml file at /home/derek/Desktop/my_learnings/dbt_northwind/dbt_project.yml
+[0m17:10:06.021322 [info ] [MainThread]: adapter type: postgres
+[0m17:10:06.021949 [info ] [MainThread]: adapter version: 1.7.13
+[0m17:10:06.144096 [info ] [MainThread]: Configuration:
+[0m17:10:06.145005 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:10:06.145593 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:10:06.146253 [info ] [MainThread]: Required dependencies:
+[0m17:10:06.146851 [debug] [MainThread]: Executing "git --help"
+[0m17:10:06.149600 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialise an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:10:06.150420 [debug] [MainThread]: STDERR: "b''"
+[0m17:10:06.151427 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:10:06.152653 [info ] [MainThread]: Connection:
+[0m17:10:06.153810 [info ] [MainThread]:   host: aws-0-eu-west-2.pooler.supabase.com
+[0m17:10:06.155054 [info ] [MainThread]:   port: 5432
+[0m17:10:06.156309 [info ] [MainThread]:   user: postgres.xcykkwpciqfqhhjjhhbb
+[0m17:10:06.157484 [info ] [MainThread]:   database: postgres
+[0m17:10:06.158539 [info ] [MainThread]:   schema: public
+[0m17:10:06.159627 [info ] [MainThread]:   connect_timeout: 10
+[0m17:10:06.160714 [info ] [MainThread]:   role: None
+[0m17:10:06.161391 [info ] [MainThread]:   search_path: None
+[0m17:10:06.162034 [info ] [MainThread]:   keepalives_idle: 0
+[0m17:10:06.162731 [info ] [MainThread]:   sslmode: None
+[0m17:10:06.163509 [info ] [MainThread]:   sslcert: None
+[0m17:10:06.164295 [info ] [MainThread]:   sslkey: None
+[0m17:10:06.164925 [info ] [MainThread]:   sslrootcert: None
+[0m17:10:06.165573 [info ] [MainThread]:   application_name: dbt
+[0m17:10:06.166195 [info ] [MainThread]:   retries: 1
+[0m17:10:06.167078 [info ] [MainThread]: Registered adapter: postgres=1.7.13
+[0m17:10:06.168267 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m17:10:06.168915 [debug] [MainThread]: Using postgres connection "debug"
+[0m17:10:06.169761 [debug] [MainThread]: On debug: select 1 as id
+[0m17:10:06.170659 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:10:06.251769 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m17:10:06.253527 [debug] [MainThread]: On debug: Close
+[0m17:10:06.254302 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:10:06.254976 [info ] [MainThread]: [32mAll checks passed![0m
+[0m17:10:06.256584 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.42574307, "process_user_time": 2.895098, "process_kernel_time": 0.08773, "process_mem_max_rss": "102024", "process_out_blocks": "24", "process_in_blocks": "0"}
+[0m17:10:06.257523 [debug] [MainThread]: Command `dbt debug` succeeded at 17:10:06.257289 after 0.43 seconds
+[0m17:10:06.258127 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:10:06.258712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77265a079f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x772657f0ddb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x772657f44a00>]}
+[0m17:10:06.259380 [debug] [MainThread]: Flushing usage events
+[0m17:10:50.119748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e4c75f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e314de10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e314f310>]}
+
+
+============================== 17:10:50.122974 | 689c831e-5414-44a8-907d-6e9bd48dbd62 ==============================
+[0m17:10:50.122974 [info ] [MainThread]: Running with dbt=1.7.13
+[0m17:10:50.123890 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/derek/Desktop/my_learnings/dbt_northwind/logs', 'fail_fast': 'False', 'profiles_dir': '/home/derek/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:10:50.408414 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e3178fd0>]}
+[0m17:10:50.628378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e314dd80>]}
+[0m17:10:50.629676 [info ] [MainThread]: Registered adapter: postgres=1.7.13
+[0m17:10:50.641319 [debug] [MainThread]: checksum: 6c24e2ee36a42cedd7e5de2827d214776eb7a8e8f425f6d8acb06c31add0afef, vars: {}, profile: , target: , version: 1.7.13
+[0m17:10:50.642746 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:10:50.643589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e3046ad0>]}
+[0m17:10:52.040215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e19e4e80>]}
+[0m17:10:52.052522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e19e6380>]}
+[0m17:10:52.053459 [info ] [MainThread]: Found 4 models, 4 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m17:10:52.054187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e29344c0>]}
+[0m17:10:52.056634 [info ] [MainThread]: 
+[0m17:10:52.057848 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m17:10:52.059722 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m17:10:52.077685 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m17:10:52.078534 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m17:10:52.079202 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:10:52.134907 [debug] [ThreadPool]: SQL status: SELECT 14 in 0.0 seconds
+[0m17:10:52.136747 [debug] [ThreadPool]: On list_postgres: Close
+[0m17:10:52.139573 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now list_postgres_public)
+[0m17:10:52.148268 [debug] [ThreadPool]: Using postgres connection "list_postgres_public"
+[0m17:10:52.148948 [debug] [ThreadPool]: On list_postgres_public: BEGIN
+[0m17:10:52.149618 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:10:52.200370 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m17:10:52.201152 [debug] [ThreadPool]: Using postgres connection "list_postgres_public"
+[0m17:10:52.201795 [debug] [ThreadPool]: On list_postgres_public: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "connection_name": "list_postgres_public"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m17:10:52.211578 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m17:10:52.213646 [debug] [ThreadPool]: On list_postgres_public: ROLLBACK
+[0m17:10:52.218429 [debug] [ThreadPool]: On list_postgres_public: Close
+[0m17:10:52.225063 [debug] [MainThread]: Using postgres connection "master"
+[0m17:10:52.225790 [debug] [MainThread]: On master: BEGIN
+[0m17:10:52.226326 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:10:52.291066 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m17:10:52.292015 [debug] [MainThread]: Using postgres connection "master"
+[0m17:10:52.292812 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m17:10:52.306732 [debug] [MainThread]: SQL status: SELECT 4 in 0.0 seconds
+[0m17:10:52.308820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e154e1a0>]}
+[0m17:10:52.309584 [debug] [MainThread]: On master: ROLLBACK
+[0m17:10:52.315139 [debug] [MainThread]: Using postgres connection "master"
+[0m17:10:52.316093 [debug] [MainThread]: On master: BEGIN
+[0m17:10:52.325034 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m17:10:52.325924 [debug] [MainThread]: On master: COMMIT
+[0m17:10:52.326561 [debug] [MainThread]: Using postgres connection "master"
+[0m17:10:52.327178 [debug] [MainThread]: On master: COMMIT
+[0m17:10:52.332342 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m17:10:52.333168 [debug] [MainThread]: On master: Close
+[0m17:10:52.334489 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:10:52.335214 [info ] [MainThread]: 
+[0m17:10:52.340707 [debug] [Thread-1 (]: Began running node model.northwind_project.customer_orders
+[0m17:10:52.341780 [info ] [Thread-1 (]: 1 of 4 START sql view model public.customer_orders ............................. [RUN]
+[0m17:10:52.342862 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_postgres_public, now model.northwind_project.customer_orders)
+[0m17:10:52.343577 [debug] [Thread-1 (]: Began compiling node model.northwind_project.customer_orders
+[0m17:10:52.358779 [debug] [Thread-1 (]: Writing injected SQL for node "model.northwind_project.customer_orders"
+[0m17:10:52.360216 [debug] [Thread-1 (]: Timing info for model.northwind_project.customer_orders (compile): 17:10:52.343987 => 17:10:52.359735
+[0m17:10:52.361058 [debug] [Thread-1 (]: Began executing node model.northwind_project.customer_orders
+[0m17:10:52.418870 [debug] [Thread-1 (]: Writing runtime sql for node "model.northwind_project.customer_orders"
+[0m17:10:52.420444 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_orders"
+[0m17:10:52.421213 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: BEGIN
+[0m17:10:52.422031 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:10:52.473947 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m17:10:52.474920 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_orders"
+[0m17:10:52.475697 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.customer_orders"} */
+
+  create view "postgres"."public"."customer_orders__dbt_tmp"
+    
+    
+  as (
+    WITH customer_orders AS (
+  SELECT
+    o.order_id,    
+    c.customer_id,
+    c.company_name,
+    COUNT(od.product_id) AS num_products_ordered,
+    SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_order_amount
+  FROM
+    "postgres"."public"."orders" o
+    JOIN "postgres"."public"."customers" c ON o.customer_id = c.customer_id
+    LEFT JOIN "postgres"."public"."order_details" od ON o.order_id = od.order_id
+  GROUP BY
+    o.order_id, c.customer_id, c.company_name
+)
+
+SELECT *
+FROM customer_orders
+  );
+[0m17:10:52.481720 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "public.orders" does not exist
+LINE 15:     "postgres"."public"."orders" o
+             ^
+
+[0m17:10:52.482592 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: ROLLBACK
+[0m17:10:52.488622 [debug] [Thread-1 (]: Timing info for model.northwind_project.customer_orders (execute): 17:10:52.361578 => 17:10:52.487849
+[0m17:10:52.489330 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: Close
+[0m17:10:52.492582 [debug] [Thread-1 (]: Database Error in model customer_orders (models/northwind/customer_orders.sql)
+  relation "public.orders" does not exist
+  LINE 15:     "postgres"."public"."orders" o
+               ^
+  compiled Code at target/run/northwind_project/models/northwind/customer_orders.sql
+[0m17:10:52.493404 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e1572fb0>]}
+[0m17:10:52.494243 [error] [Thread-1 (]: 1 of 4 ERROR creating sql view model public.customer_orders .................... [[31mERROR[0m in 0.15s]
+[0m17:10:52.495196 [debug] [Thread-1 (]: Finished running node model.northwind_project.customer_orders
+[0m17:10:52.496217 [debug] [Thread-1 (]: Began running node model.northwind_project.customer_segmentation
+[0m17:10:52.498039 [info ] [Thread-1 (]: 2 of 4 START sql view model public.customer_segmentation ....................... [RUN]
+[0m17:10:52.499114 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.northwind_project.customer_orders, now model.northwind_project.customer_segmentation)
+[0m17:10:52.499878 [debug] [Thread-1 (]: Began compiling node model.northwind_project.customer_segmentation
+[0m17:10:52.511135 [debug] [Thread-1 (]: Writing injected SQL for node "model.northwind_project.customer_segmentation"
+[0m17:10:52.513204 [debug] [Thread-1 (]: Timing info for model.northwind_project.customer_segmentation (compile): 17:10:52.500667 => 17:10:52.512494
+[0m17:10:52.514511 [debug] [Thread-1 (]: Began executing node model.northwind_project.customer_segmentation
+[0m17:10:52.522414 [debug] [Thread-1 (]: Writing runtime sql for node "model.northwind_project.customer_segmentation"
+[0m17:10:52.523844 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_segmentation"
+[0m17:10:52.524623 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: BEGIN
+[0m17:10:52.525367 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:10:52.583746 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m17:10:52.584715 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_segmentation"
+[0m17:10:52.585509 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.customer_segmentation"} */
+
+  create view "postgres"."public"."customer_segmentation__dbt_tmp"
+    
+    
+  as (
+    WITH customer_segmentation AS (
+  SELECT
+    c.customer_id,
+    c.company_name,
+    COUNT(o.order_id) AS num_orders,
+    SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_spent
+  FROM
+    "postgres"."public"."customers" c
+    LEFT JOIN "postgres"."public"."orders" o ON c.customer_id = o.customer_id
+    LEFT JOIN "postgres"."public"."order_details" od ON o.order_id = od.order_id
+  GROUP BY
+    c.customer_id, c.company_name
+)
+
+SELECT *,
+  CASE
+    WHEN num_orders >= 10 AND total_spent >= 1000 THEN 'High Value'
+    WHEN num_orders >= 5 THEN 'Mid Value'
+    ELSE 'Low Value'
+  END AS customer_segment
+FROM customer_segmentation
+  );
+[0m17:10:52.592582 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "public.customers" does not exist
+LINE 14:     "postgres"."public"."customers" c
+             ^
+
+[0m17:10:52.593525 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: ROLLBACK
+[0m17:10:52.598945 [debug] [Thread-1 (]: Timing info for model.northwind_project.customer_segmentation (execute): 17:10:52.515376 => 17:10:52.598446
+[0m17:10:52.599779 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: Close
+[0m17:10:52.601717 [debug] [Thread-1 (]: Database Error in model customer_segmentation (models/northwind/customer_segmentation.sql)
+  relation "public.customers" does not exist
+  LINE 14:     "postgres"."public"."customers" c
+               ^
+  compiled Code at target/run/northwind_project/models/northwind/customer_segmentation.sql
+[0m17:10:52.602602 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e15707f0>]}
+[0m17:10:52.603560 [error] [Thread-1 (]: 2 of 4 ERROR creating sql view model public.customer_segmentation .............. [[31mERROR[0m in 0.10s]
+[0m17:10:52.604577 [debug] [Thread-1 (]: Finished running node model.northwind_project.customer_segmentation
+[0m17:10:52.605260 [debug] [Thread-1 (]: Began running node model.northwind_project.product_sales
+[0m17:10:52.606064 [info ] [Thread-1 (]: 3 of 4 START sql view model public.product_sales ............................... [RUN]
+[0m17:10:52.607074 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.northwind_project.customer_segmentation, now model.northwind_project.product_sales)
+[0m17:10:52.607876 [debug] [Thread-1 (]: Began compiling node model.northwind_project.product_sales
+[0m17:10:52.613543 [debug] [Thread-1 (]: Writing injected SQL for node "model.northwind_project.product_sales"
+[0m17:10:52.615557 [debug] [Thread-1 (]: Timing info for model.northwind_project.product_sales (compile): 17:10:52.608249 => 17:10:52.614752
+[0m17:10:52.616980 [debug] [Thread-1 (]: Began executing node model.northwind_project.product_sales
+[0m17:10:52.629913 [debug] [Thread-1 (]: Writing runtime sql for node "model.northwind_project.product_sales"
+[0m17:10:52.631840 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.product_sales"
+[0m17:10:52.633268 [debug] [Thread-1 (]: On model.northwind_project.product_sales: BEGIN
+[0m17:10:52.634822 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:10:52.699928 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m17:10:52.701389 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.product_sales"
+[0m17:10:52.702957 [debug] [Thread-1 (]: On model.northwind_project.product_sales: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.product_sales"} */
+
+  create view "postgres"."public"."product_sales__dbt_tmp"
+    
+    
+  as (
+    WITH product_sales AS (
+  SELECT
+    p.product_id,
+    p.product_name,
+    COUNT(od.order_id) AS num_orders,
+    SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_sales
+  FROM
+    "postgres"."public"."products" p
+    LEFT JOIN "postgres"."public"."order_details" od ON p.product_id = od.product_id
+  GROUP BY
+    p.product_id, p.product_name
+)
+
+SELECT *
+FROM product_sales
+  );
+[0m17:10:52.709650 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "public.products" does not exist
+LINE 14:     "postgres"."public"."products" p
+             ^
+
+[0m17:10:52.711053 [debug] [Thread-1 (]: On model.northwind_project.product_sales: ROLLBACK
+[0m17:10:52.718133 [debug] [Thread-1 (]: Timing info for model.northwind_project.product_sales (execute): 17:10:52.617786 => 17:10:52.717312
+[0m17:10:52.719616 [debug] [Thread-1 (]: On model.northwind_project.product_sales: Close
+[0m17:10:52.722532 [debug] [Thread-1 (]: Database Error in model product_sales (models/northwind/product_sales.sql)
+  relation "public.products" does not exist
+  LINE 14:     "postgres"."public"."products" p
+               ^
+  compiled Code at target/run/northwind_project/models/northwind/product_sales.sql
+[0m17:10:52.723420 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e15680a0>]}
+[0m17:10:52.724464 [error] [Thread-1 (]: 3 of 4 ERROR creating sql view model public.product_sales ...................... [[31mERROR[0m in 0.12s]
+[0m17:10:52.725474 [debug] [Thread-1 (]: Finished running node model.northwind_project.product_sales
+[0m17:10:52.726365 [debug] [Thread-1 (]: Began running node model.northwind_project.revenue_by_region
+[0m17:10:52.727359 [info ] [Thread-1 (]: 4 of 4 START sql view model public.revenue_by_region ........................... [RUN]
+[0m17:10:52.728601 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.northwind_project.product_sales, now model.northwind_project.revenue_by_region)
+[0m17:10:52.729434 [debug] [Thread-1 (]: Began compiling node model.northwind_project.revenue_by_region
+[0m17:10:52.737590 [debug] [Thread-1 (]: Writing injected SQL for node "model.northwind_project.revenue_by_region"
+[0m17:10:52.739676 [debug] [Thread-1 (]: Timing info for model.northwind_project.revenue_by_region (compile): 17:10:52.729924 => 17:10:52.738843
+[0m17:10:52.741155 [debug] [Thread-1 (]: Began executing node model.northwind_project.revenue_by_region
+[0m17:10:52.751561 [debug] [Thread-1 (]: Writing runtime sql for node "model.northwind_project.revenue_by_region"
+[0m17:10:52.752566 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.revenue_by_region"
+[0m17:10:52.753206 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: BEGIN
+[0m17:10:52.753819 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:10:52.803926 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m17:10:52.804940 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.revenue_by_region"
+[0m17:10:52.805795 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.revenue_by_region"} */
+
+  create view "postgres"."public"."revenue_by_region__dbt_tmp"
+    
+    
+  as (
+    WITH revenue_by_region AS (
+  SELECT
+    o.ship_region,
+    COUNT(o.order_id) AS num_orders,
+    SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_sales
+  FROM
+    "postgres"."public"."orders" o
+    LEFT JOIN "postgres"."public"."order_details" od ON o.order_id = od.order_id
+  GROUP BY
+    o.ship_region
+)
+
+SELECT *
+FROM revenue_by_region
+  );
+[0m17:10:52.812077 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "public.orders" does not exist
+LINE 13:     "postgres"."public"."orders" o
+             ^
+
+[0m17:10:52.813070 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: ROLLBACK
+[0m17:10:52.820207 [debug] [Thread-1 (]: Timing info for model.northwind_project.revenue_by_region (execute): 17:10:52.742131 => 17:10:52.819628
+[0m17:10:52.821083 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: Close
+[0m17:10:52.822971 [debug] [Thread-1 (]: Database Error in model revenue_by_region (models/northwind/revenue_by_region.sql)
+  relation "public.orders" does not exist
+  LINE 13:     "postgres"."public"."orders" o
+               ^
+  compiled Code at target/run/northwind_project/models/northwind/revenue_by_region.sql
+[0m17:10:52.823720 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '689c831e-5414-44a8-907d-6e9bd48dbd62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e1568640>]}
+[0m17:10:52.824603 [error] [Thread-1 (]: 4 of 4 ERROR creating sql view model public.revenue_by_region .................. [[31mERROR[0m in 0.10s]
+[0m17:10:52.825617 [debug] [Thread-1 (]: Finished running node model.northwind_project.revenue_by_region
+[0m17:10:52.827679 [debug] [MainThread]: Using postgres connection "master"
+[0m17:10:52.828416 [debug] [MainThread]: On master: BEGIN
+[0m17:10:52.829222 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:10:52.895543 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m17:10:52.896417 [debug] [MainThread]: On master: COMMIT
+[0m17:10:52.897009 [debug] [MainThread]: Using postgres connection "master"
+[0m17:10:52.897773 [debug] [MainThread]: On master: COMMIT
+[0m17:10:52.903213 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m17:10:52.903999 [debug] [MainThread]: On master: Close
+[0m17:10:52.905157 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:10:52.905858 [debug] [MainThread]: Connection 'model.northwind_project.revenue_by_region' was properly closed.
+[0m17:10:52.906508 [info ] [MainThread]: 
+[0m17:10:52.907168 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 0.85 seconds (0.85s).
+[0m17:10:52.908832 [debug] [MainThread]: Command end result
+[0m17:10:52.925809 [info ] [MainThread]: 
+[0m17:10:52.927202 [info ] [MainThread]: [31mCompleted with 4 errors and 0 warnings:[0m
+[0m17:10:52.928421 [info ] [MainThread]: 
+[0m17:10:52.929435 [error] [MainThread]:   Database Error in model customer_orders (models/northwind/customer_orders.sql)
+  relation "public.orders" does not exist
+  LINE 15:     "postgres"."public"."orders" o
+               ^
+  compiled Code at target/run/northwind_project/models/northwind/customer_orders.sql
+[0m17:10:52.930244 [info ] [MainThread]: 
+[0m17:10:52.930997 [error] [MainThread]:   Database Error in model customer_segmentation (models/northwind/customer_segmentation.sql)
+  relation "public.customers" does not exist
+  LINE 14:     "postgres"."public"."customers" c
+               ^
+  compiled Code at target/run/northwind_project/models/northwind/customer_segmentation.sql
+[0m17:10:52.931924 [info ] [MainThread]: 
+[0m17:10:52.932686 [error] [MainThread]:   Database Error in model product_sales (models/northwind/product_sales.sql)
+  relation "public.products" does not exist
+  LINE 14:     "postgres"."public"."products" p
+               ^
+  compiled Code at target/run/northwind_project/models/northwind/product_sales.sql
+[0m17:10:52.933335 [info ] [MainThread]: 
+[0m17:10:52.933931 [error] [MainThread]:   Database Error in model revenue_by_region (models/northwind/revenue_by_region.sql)
+  relation "public.orders" does not exist
+  LINE 13:     "postgres"."public"."orders" o
+               ^
+  compiled Code at target/run/northwind_project/models/northwind/revenue_by_region.sql
+[0m17:10:52.934545 [info ] [MainThread]: 
+[0m17:10:52.935168 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=4 SKIP=0 TOTAL=4
+[0m17:10:52.936737 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.8771486, "process_user_time": 4.921852, "process_kernel_time": 0.120142, "process_mem_max_rss": "115548", "process_in_blocks": "120", "process_out_blocks": "2520", "command_success": false}
+[0m17:10:52.939142 [debug] [MainThread]: Command `dbt run` failed at 17:10:52.938380 after 2.88 seconds
+[0m17:10:52.941462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e4c75f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e2dbd510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7281e314dd80>]}
+[0m17:10:52.943376 [debug] [MainThread]: Flushing usage events
+[0m17:21:44.959243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9ad5fce830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9ad3ffe110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9ad3ffe0b0>]}
+
+
+============================== 17:21:44.962653 | b122adfa-9fe1-45e0-a6d7-d4b7941a7c3e ==============================
+[0m17:21:44.962653 [info ] [MainThread]: Running with dbt=1.7.13
+[0m17:21:44.963508 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/derek/Desktop/dbt_northwind/logs', 'version_check': 'True', 'profiles_dir': '/home/derek/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m17:21:44.964228 [info ] [MainThread]: dbt version: 1.7.13
+[0m17:21:44.964993 [info ] [MainThread]: python version: 3.10.12
+[0m17:21:44.965606 [info ] [MainThread]: python path: /home/derek/Desktop/dbt_northwind/venv/bin/python3
+[0m17:21:44.966236 [info ] [MainThread]: os info: Linux-6.5.0-27-generic-x86_64-with-glibc2.35
+[0m17:21:45.097796 [info ] [MainThread]: Using profiles dir at /home/derek/.dbt
+[0m17:21:45.098584 [info ] [MainThread]: Using profiles.yml file at /home/derek/.dbt/profiles.yml
+[0m17:21:45.099194 [info ] [MainThread]: Using dbt_project.yml file at /home/derek/Desktop/dbt_northwind/dbt_project.yml
+[0m17:21:45.100078 [info ] [MainThread]: adapter type: postgres
+[0m17:21:45.100716 [info ] [MainThread]: adapter version: 1.7.13
+[0m17:21:45.217006 [info ] [MainThread]: Configuration:
+[0m17:21:45.217948 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:21:45.218611 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:21:45.219275 [info ] [MainThread]: Required dependencies:
+[0m17:21:45.220062 [debug] [MainThread]: Executing "git --help"
+[0m17:21:45.222715 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialise an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:21:45.223697 [debug] [MainThread]: STDERR: "b''"
+[0m17:21:45.224438 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:21:45.225299 [info ] [MainThread]: Connection:
+[0m17:21:45.225987 [info ] [MainThread]:   host: aws-0-eu-west-2.pooler.supabase.com
+[0m17:21:45.226585 [info ] [MainThread]:   port: 5432
+[0m17:21:45.227176 [info ] [MainThread]:   user: postgres.xcykkwpciqfqhhjjhhbb
+[0m17:21:45.227843 [info ] [MainThread]:   database: postgres
+[0m17:21:45.228492 [info ] [MainThread]:   schema: public
+[0m17:21:45.229092 [info ] [MainThread]:   connect_timeout: 10
+[0m17:21:45.229837 [info ] [MainThread]:   role: None
+[0m17:21:45.230636 [info ] [MainThread]:   search_path: None
+[0m17:21:45.231358 [info ] [MainThread]:   keepalives_idle: 0
+[0m17:21:45.232393 [info ] [MainThread]:   sslmode: None
+[0m17:21:45.233194 [info ] [MainThread]:   sslcert: None
+[0m17:21:45.234022 [info ] [MainThread]:   sslkey: None
+[0m17:21:45.234825 [info ] [MainThread]:   sslrootcert: None
+[0m17:21:45.235582 [info ] [MainThread]:   application_name: dbt
+[0m17:21:45.236637 [info ] [MainThread]:   retries: 1
+[0m17:21:45.237936 [info ] [MainThread]: Registered adapter: postgres=1.7.13
+[0m17:21:45.239752 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m17:21:45.241068 [debug] [MainThread]: Using postgres connection "debug"
+[0m17:21:45.242311 [debug] [MainThread]: On debug: select 1 as id
+[0m17:21:45.243529 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:21:45.316389 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m17:21:45.319858 [debug] [MainThread]: On debug: Close
+[0m17:21:45.322042 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:21:45.322920 [info ] [MainThread]: [32mAll checks passed![0m
+[0m17:21:45.324213 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.42378286, "process_user_time": 2.861285, "process_kernel_time": 0.08392, "process_mem_max_rss": "98020", "process_out_blocks": "24", "process_in_blocks": "0"}
+[0m17:21:45.325061 [debug] [MainThread]: Command `dbt debug` succeeded at 17:21:45.324862 after 0.42 seconds
+[0m17:21:45.325665 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:21:45.326324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9ad5fce830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9ad409fca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9ad3b28c10>]}
+[0m17:21:45.326974 [debug] [MainThread]: Flushing usage events
+[0m17:22:16.433557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73951c48e860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73951a7b6260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73951a7b6200>]}
+
+
+============================== 17:22:16.436925 | 66d30ded-b605-4c83-9829-475d0e29e48c ==============================
+[0m17:22:16.436925 [info ] [MainThread]: Running with dbt=1.7.13
+[0m17:22:16.437830 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/derek/Desktop/dbt_northwind/logs', 'version_check': 'True', 'profiles_dir': '/home/derek/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:22:16.672251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73951a853ee0>]}
+[0m17:22:16.796890 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73951b2ff700>]}
+[0m17:22:16.798091 [info ] [MainThread]: Registered adapter: postgres=1.7.13
+[0m17:22:16.808409 [debug] [MainThread]: checksum: 6c24e2ee36a42cedd7e5de2827d214776eb7a8e8f425f6d8acb06c31add0afef, vars: {}, profile: , target: , version: 1.7.13
+[0m17:22:16.849166 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:22:16.850273 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:22:16.859937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73951956caf0>]}
+[0m17:22:16.873327 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7395199465f0>]}
+[0m17:22:16.874213 [info ] [MainThread]: Found 4 models, 4 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m17:22:16.874891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7395199440a0>]}
+[0m17:22:16.877953 [info ] [MainThread]: 
+[0m17:22:16.879166 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m17:22:16.881476 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m17:22:16.898670 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m17:22:16.899636 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m17:22:16.900342 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:22:16.956704 [debug] [ThreadPool]: SQL status: SELECT 14 in 0.0 seconds
+[0m17:22:16.958489 [debug] [ThreadPool]: On list_postgres: Close
+[0m17:22:16.961378 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now list_postgres_public)
+[0m17:22:16.969797 [debug] [ThreadPool]: Using postgres connection "list_postgres_public"
+[0m17:22:16.970517 [debug] [ThreadPool]: On list_postgres_public: BEGIN
+[0m17:22:16.971075 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:22:17.032779 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m17:22:17.033489 [debug] [ThreadPool]: Using postgres connection "list_postgres_public"
+[0m17:22:17.034099 [debug] [ThreadPool]: On list_postgres_public: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "connection_name": "list_postgres_public"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m17:22:17.044948 [debug] [ThreadPool]: SQL status: SELECT 14 in 0.0 seconds
+[0m17:22:17.047392 [debug] [ThreadPool]: On list_postgres_public: ROLLBACK
+[0m17:22:17.052489 [debug] [ThreadPool]: On list_postgres_public: Close
+[0m17:22:17.064984 [debug] [MainThread]: Using postgres connection "master"
+[0m17:22:17.066507 [debug] [MainThread]: On master: BEGIN
+[0m17:22:17.067099 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:22:17.118582 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m17:22:17.119475 [debug] [MainThread]: Using postgres connection "master"
+[0m17:22:17.120191 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m17:22:17.131921 [debug] [MainThread]: SQL status: SELECT 4 in 0.0 seconds
+[0m17:22:17.134084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7395195aa590>]}
+[0m17:22:17.134816 [debug] [MainThread]: On master: ROLLBACK
+[0m17:22:17.140678 [debug] [MainThread]: Using postgres connection "master"
+[0m17:22:17.141602 [debug] [MainThread]: On master: BEGIN
+[0m17:22:17.150467 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m17:22:17.151433 [debug] [MainThread]: On master: COMMIT
+[0m17:22:17.152140 [debug] [MainThread]: Using postgres connection "master"
+[0m17:22:17.152720 [debug] [MainThread]: On master: COMMIT
+[0m17:22:17.158402 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m17:22:17.159370 [debug] [MainThread]: On master: Close
+[0m17:22:17.160668 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:22:17.161361 [info ] [MainThread]: 
+[0m17:22:17.164141 [debug] [Thread-1 (]: Began running node model.northwind_project.customer_orders
+[0m17:22:17.165304 [info ] [Thread-1 (]: 1 of 4 START sql view model public.customer_orders ............................. [RUN]
+[0m17:22:17.166522 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_postgres_public, now model.northwind_project.customer_orders)
+[0m17:22:17.167342 [debug] [Thread-1 (]: Began compiling node model.northwind_project.customer_orders
+[0m17:22:17.180670 [debug] [Thread-1 (]: Writing injected SQL for node "model.northwind_project.customer_orders"
+[0m17:22:17.181940 [debug] [Thread-1 (]: Timing info for model.northwind_project.customer_orders (compile): 17:22:17.167908 => 17:22:17.181462
+[0m17:22:17.182978 [debug] [Thread-1 (]: Began executing node model.northwind_project.customer_orders
+[0m17:22:17.245788 [debug] [Thread-1 (]: Writing runtime sql for node "model.northwind_project.customer_orders"
+[0m17:22:17.246922 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_orders"
+[0m17:22:17.247693 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: BEGIN
+[0m17:22:17.248578 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:22:17.300191 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m17:22:17.301103 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_orders"
+[0m17:22:17.301749 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.customer_orders"} */
+
+  create view "postgres"."public"."customer_orders__dbt_tmp"
+    
+    
+  as (
+    WITH customer_orders AS (
+  SELECT
+    o.order_id,    
+    c.customer_id,
+    c.company_name,
+    COUNT(od.product_id) AS num_products_ordered,
+    SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_order_amount
+  FROM
+    "postgres"."public"."orders" o
+    JOIN "postgres"."public"."customers" c ON o.customer_id = c.customer_id
+    LEFT JOIN "postgres"."public"."order_details" od ON o.order_id = od.order_id
+  GROUP BY
+    o.order_id, c.customer_id, c.company_name
+)
+
+SELECT *
+FROM customer_orders
+  );
+[0m17:22:17.316729 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m17:22:17.325607 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_orders"
+[0m17:22:17.326537 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.customer_orders"} */
+alter table "postgres"."public"."customer_orders__dbt_tmp" rename to "customer_orders"
+[0m17:22:17.333451 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m17:22:17.352805 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: COMMIT
+[0m17:22:17.353572 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_orders"
+[0m17:22:17.354225 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: COMMIT
+[0m17:22:17.360459 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m17:22:17.369193 [debug] [Thread-1 (]: Applying DROP to: "postgres"."public"."customer_orders__dbt_backup"
+[0m17:22:17.375312 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_orders"
+[0m17:22:17.376054 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.customer_orders"} */
+drop view if exists "postgres"."public"."customer_orders__dbt_backup" cascade
+[0m17:22:17.381747 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m17:22:17.384204 [debug] [Thread-1 (]: Timing info for model.northwind_project.customer_orders (execute): 17:22:17.183644 => 17:22:17.383883
+[0m17:22:17.384907 [debug] [Thread-1 (]: On model.northwind_project.customer_orders: Close
+[0m17:22:17.386100 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7395195bfbe0>]}
+[0m17:22:17.387003 [info ] [Thread-1 (]: 1 of 4 OK created sql view model public.customer_orders ........................ [[32mCREATE VIEW[0m in 0.22s]
+[0m17:22:17.388016 [debug] [Thread-1 (]: Finished running node model.northwind_project.customer_orders
+[0m17:22:17.388760 [debug] [Thread-1 (]: Began running node model.northwind_project.customer_segmentation
+[0m17:22:17.389502 [info ] [Thread-1 (]: 2 of 4 START sql view model public.customer_segmentation ....................... [RUN]
+[0m17:22:17.390716 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.northwind_project.customer_orders, now model.northwind_project.customer_segmentation)
+[0m17:22:17.391382 [debug] [Thread-1 (]: Began compiling node model.northwind_project.customer_segmentation
+[0m17:22:17.396777 [debug] [Thread-1 (]: Writing injected SQL for node "model.northwind_project.customer_segmentation"
+[0m17:22:17.398153 [debug] [Thread-1 (]: Timing info for model.northwind_project.customer_segmentation (compile): 17:22:17.391784 => 17:22:17.397564
+[0m17:22:17.399444 [debug] [Thread-1 (]: Began executing node model.northwind_project.customer_segmentation
+[0m17:22:17.408706 [debug] [Thread-1 (]: Writing runtime sql for node "model.northwind_project.customer_segmentation"
+[0m17:22:17.410178 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_segmentation"
+[0m17:22:17.411117 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: BEGIN
+[0m17:22:17.411803 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:22:17.460497 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m17:22:17.461523 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_segmentation"
+[0m17:22:17.462393 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.customer_segmentation"} */
+
+  create view "postgres"."public"."customer_segmentation__dbt_tmp"
+    
+    
+  as (
+    WITH customer_segmentation AS (
+  SELECT
+    c.customer_id,
+    c.company_name,
+    COUNT(o.order_id) AS num_orders,
+    SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_spent
+  FROM
+    "postgres"."public"."customers" c
+    LEFT JOIN "postgres"."public"."orders" o ON c.customer_id = o.customer_id
+    LEFT JOIN "postgres"."public"."order_details" od ON o.order_id = od.order_id
+  GROUP BY
+    c.customer_id, c.company_name
+)
+
+SELECT *,
+  CASE
+    WHEN num_orders >= 10 AND total_spent >= 1000 THEN 'High Value'
+    WHEN num_orders >= 5 THEN 'Mid Value'
+    ELSE 'Low Value'
+  END AS customer_segment
+FROM customer_segmentation
+  );
+[0m17:22:17.472329 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m17:22:17.478071 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_segmentation"
+[0m17:22:17.478799 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.customer_segmentation"} */
+alter table "postgres"."public"."customer_segmentation__dbt_tmp" rename to "customer_segmentation"
+[0m17:22:17.485694 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m17:22:17.488819 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: COMMIT
+[0m17:22:17.489625 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_segmentation"
+[0m17:22:17.490218 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: COMMIT
+[0m17:22:17.497151 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m17:22:17.501500 [debug] [Thread-1 (]: Applying DROP to: "postgres"."public"."customer_segmentation__dbt_backup"
+[0m17:22:17.504250 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.customer_segmentation"
+[0m17:22:17.505015 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.customer_segmentation"} */
+drop view if exists "postgres"."public"."customer_segmentation__dbt_backup" cascade
+[0m17:22:17.511680 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m17:22:17.514153 [debug] [Thread-1 (]: Timing info for model.northwind_project.customer_segmentation (execute): 17:22:17.400211 => 17:22:17.513841
+[0m17:22:17.514818 [debug] [Thread-1 (]: On model.northwind_project.customer_segmentation: Close
+[0m17:22:17.516025 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x739519161300>]}
+[0m17:22:17.516882 [info ] [Thread-1 (]: 2 of 4 OK created sql view model public.customer_segmentation .................. [[32mCREATE VIEW[0m in 0.13s]
+[0m17:22:17.517879 [debug] [Thread-1 (]: Finished running node model.northwind_project.customer_segmentation
+[0m17:22:17.518641 [debug] [Thread-1 (]: Began running node model.northwind_project.product_sales
+[0m17:22:17.519551 [info ] [Thread-1 (]: 3 of 4 START sql view model public.product_sales ............................... [RUN]
+[0m17:22:17.520579 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.northwind_project.customer_segmentation, now model.northwind_project.product_sales)
+[0m17:22:17.521181 [debug] [Thread-1 (]: Began compiling node model.northwind_project.product_sales
+[0m17:22:17.526386 [debug] [Thread-1 (]: Writing injected SQL for node "model.northwind_project.product_sales"
+[0m17:22:17.527737 [debug] [Thread-1 (]: Timing info for model.northwind_project.product_sales (compile): 17:22:17.521547 => 17:22:17.527229
+[0m17:22:17.528481 [debug] [Thread-1 (]: Began executing node model.northwind_project.product_sales
+[0m17:22:17.538358 [debug] [Thread-1 (]: Writing runtime sql for node "model.northwind_project.product_sales"
+[0m17:22:17.540061 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.product_sales"
+[0m17:22:17.541263 [debug] [Thread-1 (]: On model.northwind_project.product_sales: BEGIN
+[0m17:22:17.542147 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:22:17.595002 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m17:22:17.596114 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.product_sales"
+[0m17:22:17.596881 [debug] [Thread-1 (]: On model.northwind_project.product_sales: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.product_sales"} */
+
+  create view "postgres"."public"."product_sales__dbt_tmp"
+    
+    
+  as (
+    WITH product_sales AS (
+  SELECT
+    p.product_id,
+    p.product_name,
+    COUNT(od.order_id) AS num_orders,
+    SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_sales
+  FROM
+    "postgres"."public"."products" p
+    LEFT JOIN "postgres"."public"."order_details" od ON p.product_id = od.product_id
+  GROUP BY
+    p.product_id, p.product_name
+)
+
+SELECT *
+FROM product_sales
+  );
+[0m17:22:17.605748 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m17:22:17.611099 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.product_sales"
+[0m17:22:17.611882 [debug] [Thread-1 (]: On model.northwind_project.product_sales: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.product_sales"} */
+alter table "postgres"."public"."product_sales__dbt_tmp" rename to "product_sales"
+[0m17:22:17.618886 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m17:22:17.621816 [debug] [Thread-1 (]: On model.northwind_project.product_sales: COMMIT
+[0m17:22:17.622425 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.product_sales"
+[0m17:22:17.623082 [debug] [Thread-1 (]: On model.northwind_project.product_sales: COMMIT
+[0m17:22:17.629791 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m17:22:17.633735 [debug] [Thread-1 (]: Applying DROP to: "postgres"."public"."product_sales__dbt_backup"
+[0m17:22:17.635201 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.product_sales"
+[0m17:22:17.635935 [debug] [Thread-1 (]: On model.northwind_project.product_sales: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.product_sales"} */
+drop view if exists "postgres"."public"."product_sales__dbt_backup" cascade
+[0m17:22:17.640938 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m17:22:17.643397 [debug] [Thread-1 (]: Timing info for model.northwind_project.product_sales (execute): 17:22:17.528897 => 17:22:17.642979
+[0m17:22:17.644354 [debug] [Thread-1 (]: On model.northwind_project.product_sales: Close
+[0m17:22:17.645551 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73951956f7c0>]}
+[0m17:22:17.646527 [info ] [Thread-1 (]: 3 of 4 OK created sql view model public.product_sales .......................... [[32mCREATE VIEW[0m in 0.13s]
+[0m17:22:17.647558 [debug] [Thread-1 (]: Finished running node model.northwind_project.product_sales
+[0m17:22:17.648283 [debug] [Thread-1 (]: Began running node model.northwind_project.revenue_by_region
+[0m17:22:17.649382 [info ] [Thread-1 (]: 4 of 4 START sql view model public.revenue_by_region ........................... [RUN]
+[0m17:22:17.650569 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.northwind_project.product_sales, now model.northwind_project.revenue_by_region)
+[0m17:22:17.651344 [debug] [Thread-1 (]: Began compiling node model.northwind_project.revenue_by_region
+[0m17:22:17.657009 [debug] [Thread-1 (]: Writing injected SQL for node "model.northwind_project.revenue_by_region"
+[0m17:22:17.658569 [debug] [Thread-1 (]: Timing info for model.northwind_project.revenue_by_region (compile): 17:22:17.651755 => 17:22:17.657963
+[0m17:22:17.659546 [debug] [Thread-1 (]: Began executing node model.northwind_project.revenue_by_region
+[0m17:22:17.669184 [debug] [Thread-1 (]: Writing runtime sql for node "model.northwind_project.revenue_by_region"
+[0m17:22:17.670435 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.revenue_by_region"
+[0m17:22:17.671508 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: BEGIN
+[0m17:22:17.672355 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:22:17.726593 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m17:22:17.727592 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.revenue_by_region"
+[0m17:22:17.728289 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.revenue_by_region"} */
+
+  create view "postgres"."public"."revenue_by_region__dbt_tmp"
+    
+    
+  as (
+    WITH revenue_by_region AS (
+  SELECT
+    o.ship_region,
+    COUNT(o.order_id) AS num_orders,
+    SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_sales
+  FROM
+    "postgres"."public"."orders" o
+    LEFT JOIN "postgres"."public"."order_details" od ON o.order_id = od.order_id
+  GROUP BY
+    o.ship_region
+)
+
+SELECT *
+FROM revenue_by_region
+  );
+[0m17:22:17.738206 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m17:22:17.742887 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.revenue_by_region"
+[0m17:22:17.743820 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.revenue_by_region"} */
+alter table "postgres"."public"."revenue_by_region__dbt_tmp" rename to "revenue_by_region"
+[0m17:22:17.750845 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m17:22:17.753476 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: COMMIT
+[0m17:22:17.754183 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.revenue_by_region"
+[0m17:22:17.754782 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: COMMIT
+[0m17:22:17.761750 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m17:22:17.823101 [debug] [Thread-1 (]: Applying DROP to: "postgres"."public"."revenue_by_region__dbt_backup"
+[0m17:22:17.824662 [debug] [Thread-1 (]: Using postgres connection "model.northwind_project.revenue_by_region"
+[0m17:22:17.825314 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: /* {"app": "dbt", "dbt_version": "1.7.13", "profile_name": "northwind_project", "target_name": "dev", "node_id": "model.northwind_project.revenue_by_region"} */
+drop view if exists "postgres"."public"."revenue_by_region__dbt_backup" cascade
+[0m17:22:17.831537 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m17:22:17.833957 [debug] [Thread-1 (]: Timing info for model.northwind_project.revenue_by_region (execute): 17:22:17.660242 => 17:22:17.833657
+[0m17:22:17.834568 [debug] [Thread-1 (]: On model.northwind_project.revenue_by_region: Close
+[0m17:22:17.835754 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '66d30ded-b605-4c83-9829-475d0e29e48c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7395191c7a00>]}
+[0m17:22:17.836720 [info ] [Thread-1 (]: 4 of 4 OK created sql view model public.revenue_by_region ...................... [[32mCREATE VIEW[0m in 0.19s]
+[0m17:22:17.837767 [debug] [Thread-1 (]: Finished running node model.northwind_project.revenue_by_region
+[0m17:22:17.839547 [debug] [MainThread]: Using postgres connection "master"
+[0m17:22:17.840203 [debug] [MainThread]: On master: BEGIN
+[0m17:22:17.840763 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:22:17.897040 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m17:22:17.897947 [debug] [MainThread]: On master: COMMIT
+[0m17:22:17.898647 [debug] [MainThread]: Using postgres connection "master"
+[0m17:22:17.899318 [debug] [MainThread]: On master: COMMIT
+[0m17:22:17.906016 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m17:22:17.906796 [debug] [MainThread]: On master: Close
+[0m17:22:17.908088 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:22:17.908675 [debug] [MainThread]: Connection 'model.northwind_project.revenue_by_region' was properly closed.
+[0m17:22:17.909269 [info ] [MainThread]: 
+[0m17:22:17.909953 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 1.03 seconds (1.03s).
+[0m17:22:17.911819 [debug] [MainThread]: Command end result
+[0m17:22:17.926116 [info ] [MainThread]: 
+[0m17:22:17.927100 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:22:17.928034 [info ] [MainThread]: 
+[0m17:22:17.928930 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[0m17:22:17.930313 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.5621022, "process_user_time": 3.535239, "process_kernel_time": 0.100318, "process_mem_max_rss": "106700", "process_out_blocks": "1736", "process_in_blocks": "0"}
+[0m17:22:17.931311 [debug] [MainThread]: Command `dbt run` succeeded at 17:22:17.931028 after 1.56 seconds
+[0m17:22:17.932437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73951c48e860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7395191a3cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7395191a36a0>]}
+[0m17:22:17.933682 [debug] [MainThread]: Flushing usage events
